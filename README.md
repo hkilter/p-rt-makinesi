@@ -32,6 +32,7 @@ Pört Listesi (sırasız)
 # Elements
 
 Gözetmenlik görevlendirme yazısı örneği
+
 ![Gözetmenlik yazılarının otomatik yazılması.](https://github.com/hkilter/part-machine/blob/master/Screen_Shot_2017-11-19_at_11_46_43s.png?raw=true)
 
 ![Ders sorumlusu görevlendirme yazılarının otomatik yazılması.](https://github.com/hkilter/part-machine/blob/master/Screen_Shot_2017-11-19_at_23_25_07s.png?raw=true)
