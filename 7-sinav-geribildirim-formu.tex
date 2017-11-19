@@ -1,0 +1,53 @@
+% envelope.tex
+\documentclass[12pt,a4paper]{article}
+%\usepackage[left=1in,top=1in,papersize={21cm,29.7cm},landscape,twoside=false]{geometry}
+\usepackage[portrait,twoside=false]{geometry}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{graphicx}
+\setlength\parskip{0pt}
+\pagestyle{empty}
+\usepackage[separator=;]{datatool}
+
+\begin{document}
+\inputencoding{latin1}
+\DTLloaddb{addr}{96-sinavlar.csv} % open database
+\inputencoding{utf8}
+\DTLforeach{addr}{
+\kodad=kodad,
+\ogruye=ogruye%
+}{ % START BATCH
+\setlength\parindent{0cm}
+\begin{center}
+{\includegraphics[height=2cm]{ybu-logo.pdf}\\İŞLETME FAKÜLTESİ}
+\vskip0.4cm
+Sınav Geribildirim Formu \\ \emph{Exam Feedback Form}
+\end{center}
+
+Ders \emph{Course} \\ - \kodad
+
+Dersin öğretim üyesi \emph{Instructor of the course} \\ - \ogruye
+\vskip0.4cm
+Geribildirimde bulunan \\ \emph{Feedback given by}
+\vskip0.1cm
+\renewcommand{\arraystretch}{2}
+\begin{tabular}{|p{15cm}|}
+  \hline
+  \\ \hline
+\end{tabular}
+\renewcommand{\arraystretch}{1}
+\vskip0.1cm
+Geribildirim mesajı \\ \emph{Feedback message}
+\vskip0.1cm
+%\setlength\parindent{5cm}
+
+\renewcommand{\arraystretch}{20.5}
+\begin{tabular}{|p{15cm}|}
+  \hline
+  \\ \hline
+\end{tabular}
+\renewcommand{\arraystretch}{1}
+
+\newpage
+}
+\end{document}
