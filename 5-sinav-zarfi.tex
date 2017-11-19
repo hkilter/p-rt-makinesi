@@ -1,0 +1,53 @@
+% envelope.tex
+\documentclass[a4paper]{letter}
+%\usepackage[left=1in,top=1in,papersize={21cm,29.7cm},landscape,twoside=false]{geometry}
+\usepackage[landscape,twoside=false]{geometry}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{graphicx}
+\setlength\parskip{0pt}
+\pagestyle{empty}
+\usepackage[separator=;]{datatool}
+
+\begin{document}
+\inputencoding{latin1}
+\DTLloaddb{addr}{96-sinavlar.csv} % open database
+\inputencoding{utf8}
+\DTLforeach{addr}{
+\kodad=kodad,
+\ogruye=ogruye%
+}{ % START BATCH
+\begin{center}
+{\includegraphics[height=2cm]{ybu-logo.pdf}\\İŞLETME FAKÜLTESİ}
+\end{center}
+
+\vskip0.8cm
+
+{\LARGE 2017-2018 Akademik Yılı}
+\vskip0.3cm
+{\LARGE Güz Yarıyılı}
+\vskip0.1cm
+{\LARGE \bf{Yarıyıl Sonu Sınavı}}
+\vskip0.8cm
+%\setlength\parindent{5cm}
+\begin{center}
+  {\Huge \bf{\kodad}}  
+\end{center}
+
+\vskip0.8cm
+{\LARGE Öğretim Üyesi: \ogruye}
+\vskip0.1cm
+{\LARGE Öğretim Üyesinin İmzası:}
+\vskip2cm
+{\huge Sınava katılan öğrenci sayısı: }
+\vskip0.4cm
+{\huge Zarftaki sınav kağıdı sayısı:}
+
+%\setlength\parindent{0cm}
+\vskip1cm
+%\hfill {\Large Zarfın kapağı, kapatıldıktan sonra öğretim üyesi tarafından imzalanacaktır.}
+{\Large Zarfın kapağı, kapatıldıktan sonra öğretim üyesi tarafından imzalanacaktır.}
+
+\newpage
+}
+\end{document}

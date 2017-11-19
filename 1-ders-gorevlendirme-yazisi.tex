@@ -1,0 +1,33 @@
+\documentclass[11pt]{dinbrief}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{lmodern}
+
+\usepackage[separator=;]{datatool}
+\newrobustcmd{\companyrobust}{\parbox[b]{7.5cm}{\raggedright\bolum}}
+\begin{document}
+\inputencoding{latin1}
+\DTLloaddb{addr}{asistanlar.csv} % open database
+\inputencoding{utf8}
+\DTLforeach{addr}{
+\bolum=bolum,
+\pozisyon=pozisyon,
+\unvan=unvan,
+\ad=ad,
+\soyad=soyad%
+%\company=company,
+%\firstname=firstname,
+%\surname=surname%
+}{ % start bulk letter
+%\begin{letter}{\companyrobust\\\ad}
+\begin{letter}{\unvan\ad~\soyad\\\pozisyon\\\companyrobust}
+\subject{Konu: Gözetmenlik.}
+\vskip1.5cm%
+\opening{Sayın \unvan\soyad,}
+İşletme Fakültesi'nin 2017-2018 Güz yarıyılının ara sınavlarında gözetmen olarak görevlendirilmiş bulunuyorsunuz. Sınavların, \emph{İşletme Fakültesi Sınav Politikası}'nda belirtildiği şekilde yapılması için gereğini rica ederim.
+\vskip1.5cm%
+\closing{Doç. Dr. H. Kemal İlter\\Dekan a.\\Dekan Yardımcısı}
+\end{letter}
+}
+\end{document}
