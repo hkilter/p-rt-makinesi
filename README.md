@@ -31,10 +31,13 @@ Pört Listesi (sırasız)
 
 # Elements
 
+Gözetmenlik görevlendirme yazısı örneği
 ![Gözetmenlik yazılarının otomatik yazılması.](https://github.com/hkilter/part-machine/blob/master/Screen_Shot_2017-11-19_at_11_46_43s.png?raw=true)
 
-![Ders sorumlusu görevlendirme yazılarının otomatik yazılması.](https://scontent.fsaw1-4.fna.fbcdn.net/v/t1.0-9/23754709_150818939005503_36628108244815381_n.jpg?oh=2c7a7358d6c8187aab1d60fbcae52464&oe=5A89BD75)
+![Ders sorumlusu görevlendirme yazılarının otomatik yazılması.](https://github.com/hkilter/part-machine/blob/master/Screen_Shot_2017-11-19_at_23_25_07s.png?raw=true)
 
-![Sınav zarflarının otomatik yazılması.](https://scontent.fsaw1-4.fna.fbcdn.net/v/t31.0-8/p720x720/23593812_150819022338828_3082018182963438153_o.jpg?oh=26823a65fdb865e08546a5b20200b470&oe=5AA73C23)
+![Sınav zarflarının otomatik yazılması.](https://github.com/hkilter/part-machine/blob/master/Screen_Shot_2017-11-19_at_11_49_31s.png?raw=true)
 
 ![İmza Listesi.](https://github.com/hkilter/part-machine/blob/master/Screen%20Shot%202017-11-19%20at%2021.43.39.png?raw=true)
+
+![Sınav geribildirim formu](https://github.com/hkilter/part-machine/blob/master/Screen_Shot_2017-11-19_at_22_12_00s.png?raw=true)
