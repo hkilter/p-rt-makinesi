@@ -29,11 +29,7 @@ Pört Listesi (sırasız)
     Ofis saatleri (bizim için)
     Koccaman takvim (herşey için)
 
-Yapılacaklar Listesi (sıralı)
-
-    Listeyi özümse.
-
-Yapılmış Olanlar Listesi (sırasız)
+# Elements
 
 ![Gözetmenlik yazılarının otomatik yazılması.](https://scontent.fsaw1-4.fna.fbcdn.net/v/t1.0-9/23622168_150818862338844_4836531958024663680_n.jpg?oh=eabbb1cc89a29a64bb235d0bb9a32691&oe=5A971EF1)
 
