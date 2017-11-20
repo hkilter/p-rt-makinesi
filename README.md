@@ -4,9 +4,6 @@
 
 part-machine is a framework for pipelines and workflows which are created to handle multi-document processes related to exams of the [Business School](http://isletme.ybu.edu.tr).
 
-Yapmak istediğim özetle şu; bir tek tuşa basacağım ve printer’dan aşağıdaki listedeki tüm dokümanlar çıkacak, email ile dağıtılacak, web sitesinde paylaşılacak, sosyal medyaya paslanacak, ve bölüm sekreterinin asma, duyurma, iletme işlemleri için yeterli olacak. Bu makinenin adı Pört Makinesi olacak.
-Pört Listesi (sırasız)
-
 Bilginin toplanması ve işlenebilir hale getirilmesi için kullanılan formlar
 * Sınav planlama formu (Öğretim üyesi) - Online, csv file
 * Haftalık çalışma planı (Öğretim üyesi) - Online, csv file
