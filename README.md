@@ -40,7 +40,7 @@ Gözetmenlik görevlendirme yazısı örneği
 
 ![Gözetmenlik yazılarının otomatik yazılması.](https://github.com/hkilter/part-machine/blob/master/img/Screen_Shot_2017-11-19_at_11_46_43s.png?raw=true)
 
-<a href="url"><img src="https://github.com/hkilter/part-machine/blob/master/img/Screen_Shot_2017-11-19_at_11_46_43s.png" align="left" height="48" width="48" ></a>
+<a href="https://github.com/hkilter/part-machine/blob/master/img/Screen_Shot_2017-11-19_at_11_46_43s.png"><img src="https://github.com/hkilter/part-machine/blob/master/img/Screen_Shot_2017-11-19_at_11_46_43s.png" align="left" height="200" ></a>
 
 Sınav sorumlusu görevlendirme yazısı örneği
 
