@@ -7,7 +7,23 @@ part-machine is a framework for pipelines and workflows which are created to han
 Yapmak istediğim özetle şu; bir tek tuşa basacağım ve printer’dan aşağıdaki listedeki tüm dokümanlar çıkacak, email ile dağıtılacak, web sitesinde paylaşılacak, sosyal medyaya paslanacak, ve bölüm sekreterinin asma, duyurma, iletme işlemleri için yeterli olacak. Bu makinenin adı Pört Makinesi olacak.
 Pört Listesi (sırasız)
 
-    Tüm bilginin otomatik toplanması
+Bilginin toplanması ve işlenebilir hale getirilmesi için kullanılan formlar
+* Sınav planlama formu (Öğretim üyesi) - Online, csv file
+* Haftalık çalışma planı (Öğretim üyesi) - Online, csv file
+* Haftalık çalışma planı (Araştırma görevlisi) - Online, csv file
+* Sınav salonlarına ilişkin bilgi (Fakülte sekreterliği), csv file
+* Derslere ilişkin öğrenci sayısı bilgisi (Bölüm sekreterliği), csv file
+* SOFT için girdi dosyası (Dekanlık), xml file
+
+İstenen çıktılar
+* Ders görevlendirme yazısı
+* Gözetmenlik görevlendirme yazısı
+* Sınav sorumlusu görevlendirme yazısı
+* Sınav zarfı
+  * İmza listesi
+  * Sınav geribildirim formu
+  * Sınav tutanağı
+
     Ders programını otomatik yapan bir şey
     Sınav programını otomatik eden başka bir şey
     Yukarıdaki ikisinin anlamlı (makine için) sonuçları
