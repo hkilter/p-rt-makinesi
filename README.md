@@ -6,39 +6,28 @@ Bilginin toplanması ve işlenebilir hale getirilmesi için kullanılan formlar
 * Sınav planlama formu (Öğretim üyesi) - Online, csv file
 * Haftalık çalışma planı (Öğretim üyesi) - Online, csv file
 * Haftalık çalışma planı (Araştırma görevlisi) - Online, csv file
+* Ofis saatleri (Öğretim Elemanları) - Online, , csv file
 * Sınav salonlarına ilişkin bilgi (Fakülte sekreterliği), csv file
 * Derslere ilişkin öğrenci sayısı bilgisi (Bölüm sekreterliği), csv file
 * SOFT için girdi dosyası (Dekanlık), xml file
 
 İstenen çıktılar
+* Ders programı
 * Ders görevlendirme yazısı
+* Haftalık ders programı
+* BOLOGNA ders formu
+* Telafi dersi formu
+* İşletme Fakültesi Eğitim Politikası
+* Sınav programı
 * Gözetmenlik görevlendirme yazısı
+* Gözetmen değişiklik formu
 * Sınav sorumlusu görevlendirme yazısı
 * Sınav zarfı
   * İmza listesi
   * Sınav geribildirim formu
   * Sınav tutanağı
-
-    Ders programını otomatik yapan bir şey
-    Sınav programını otomatik eden başka bir şey
-    Yukarıdaki ikisinin anlamlı (makine için) sonuçları
-    Gözetmenlik yazıları
-    Ders sorumlusu bilgilendirme yazıları
-    Sınav programı (panoya asılacak olan, öğrenciler için)
-    Sınav programı (dosyaya kaldırılacak olan ama çook detaylı)
-    Sınav programı (elektronik olarak paylaşılacak, süper detaya gerek yok)
-    Sınav zarfı etiketi (yapıştırmak adına)
-    Sınav tutanağı (olası problemleri rapor etmek için)
-    Öğrenci listeleri (yoklama olarak)
-    Öğrenci listeleri (kapıya asmak şeklinde)
-    Gözetmen değişiklik formu (değiş ve tokuş için)
-    Haftalık ders programı (panoya asılacak olan, öğrenciler için)
-    Haftalık ders programı (dosyaya kaldırılacak olan ama çook detaylı)
-    Haftalık ders programı (elektronik olarak paylaşılacak, süper detaya gerek yok)
-    Haftalık çalışma planı (asistanlar için)
-    Haftalık çalışma planı (diğerleri için)
-    Ofis saatleri (bizim için)
-    Koccaman takvim (herşey için)
+  * Örnek cevap kağıdı
+* Fakülte Takvimi
 
 # Örnek Dokümanlar
 
