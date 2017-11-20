@@ -40,20 +40,18 @@ Gözetmenlik görevlendirme yazısı örneği
 
 ![1](https://github.com/hkilter/part-machine/blob/master/img/Screen_Shot_2017-11-19_at_11_46_43s.png?raw=true)
 
-<a href="https://github.com/hkilter/part-machine/blob/master/img/Screen_Shot_2017-11-19_at_11_46_43s.png?raw=true"><img src="https://github.com/hkilter/part-machine/blob/master/img/Screen_Shot_2017-11-19_at_11_46_43s.png" align="left" width="400" ></a>
-
 Sınav sorumlusu görevlendirme yazısı örneği
 
-<a href="https://github.com/hkilter/part-machine/blob/master/img/Screen_Shot_2017-11-19_at_23_25_07s.png?raw=true"><img src="https://github.com/hkilter/part-machine/blob/master/img/Screen_Shot_2017-11-19_at_23_25_07s.png" align="right" width="400" ></a>
+![2](https://github.com/hkilter/part-machine/blob/master/img/Screen_Shot_2017-11-19_at_23_25_07s.png?raw=true)
 
 Sınav zarfı örneği
 
-![Sınav zarflarının otomatik yazılması.](https://github.com/hkilter/part-machine/blob/master/img/Screen_Shot_2017-11-19_at_11_49_31s.png?raw=true)
+![3](https://github.com/hkilter/part-machine/blob/master/img/Screen_Shot_2017-11-19_at_11_49_31s.png?raw=true)
 
 İmza listesi örneği
 
-![İmza listesi.](https://github.com/hkilter/part-machine/blob/master/img/Screen%20Shot%202017-11-19%20at%2021.43.39.png?raw=true)
+![4](https://github.com/hkilter/part-machine/blob/master/img/Screen%20Shot%202017-11-19%20at%2021.43.39.png?raw=true)
 
 Sınav geribildirim formu örneği
 
-![Sınav geribildirim formu](https://github.com/hkilter/part-machine/blob/master/img/Screen_Shot_2017-11-19_at_22_12_00s.png?raw=true)
+![5](https://github.com/hkilter/part-machine/blob/master/img/Screen_Shot_2017-11-19_at_22_12_00s.png?raw=true)
