@@ -42,7 +42,7 @@ Gözetmenlik görevlendirme yazısı örneği
 
 Sınav sorumlusu görevlendirme yazısı örneği
 
-<a href="https://github.com/hkilter/part-machine/blob/master/img/Screen_Shot_2017-11-19_at_23_25_07s.png?raw=true"><img src="https://github.com/hkilter/part-machine/blob/master/img/Screen_Shot_2017-11-19_at_23_25_07s.png" align="left" width="400" ></a>
+<a href="https://github.com/hkilter/part-machine/blob/master/img/Screen_Shot_2017-11-19_at_23_25_07s.png?raw=true"><img src="https://github.com/hkilter/part-machine/blob/master/img/Screen_Shot_2017-11-19_at_23_25_07s.png" align="right" width="400" ></a>
 
 Sınav zarfı örneği
 
