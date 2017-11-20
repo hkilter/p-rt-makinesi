@@ -21,12 +21,12 @@ Bilginin toplanması ve işlenebilir hale getirilmesi için kullanılan formlar
 * Telafi dersi formu
 * İşletme Fakültesi Eğitim Politikası
 * Sınav programı
-* Gözetmenlik görevlendirme yazısı
+* Gözetmenlik görevlendirme yazısı - DONE
 * Gözetmen değişiklik formu
-* Sınav sorumlusu görevlendirme yazısı
-* Sınav zarfı
-  * İmza listesi
-  * Sınav geribildirim formu
+* Sınav sorumlusu görevlendirme yazısı - DONE
+* Sınav zarfı - DONE
+  * İmza listesi - DONE
+  * Sınav geribildirim formu - DONE
   * Sınav tutanağı
   * Örnek cevap kağıdı
 * Fakülte Takvimi
