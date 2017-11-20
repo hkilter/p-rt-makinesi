@@ -1,7 +1,5 @@
 # part-machine
 
-![part-machine](https://scontent.fsaw1-4.fna.fbcdn.net/v/t1.0-9/23517631_148510612569669_8005680076239822144_n.jpg =250x)
-
 part-machine is a framework for pipelines and workflows which are created to handle multi-document processes related to exams of the [Business School](http://isletme.ybu.edu.tr).
 
 Bilginin toplanması ve işlenebilir hale getirilmesi için kullanılan formlar
