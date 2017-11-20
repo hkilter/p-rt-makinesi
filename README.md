@@ -2,6 +2,8 @@
 
 part-machine is a framework for pipelines and workflows which are created to handle multi-document processes of the [Business School](http://isletme.ybu.edu.tr) of [AYBU](http://ybu.edu.tr).
 
+### Formlar
+
 Bilginin toplanması ve işlenebilir hale getirilmesi için kullanılan formlar
 * Sınav planlama formu (Öğretim üyesi) - Online, csv file
 * Haftalık çalışma planı (Öğretim üyesi) - Online, csv file
@@ -11,7 +13,7 @@ Bilginin toplanması ve işlenebilir hale getirilmesi için kullanılan formlar
 * Derslere ilişkin öğrenci sayısı bilgisi (Bölüm sekreterliği), csv file
 * SOFT için girdi dosyası (Dekanlık), xml file
 
-İstenen çıktılar
+### Çıktılar
 * Ders programı
 * Ders görevlendirme yazısı
 * Haftalık ders programı
@@ -29,7 +31,7 @@ Bilginin toplanması ve işlenebilir hale getirilmesi için kullanılan formlar
   * Örnek cevap kağıdı
 * Fakülte Takvimi
 
-# Örnek Dokümanlar
+### Örnek Dokümanlar
 
 Gözetmenlik görevlendirme yazısı örneği
 
