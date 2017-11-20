@@ -1,6 +1,6 @@
 # part-machine
 
-part-machine is a framework for pipelines and workflows which are created to handle multi-document processes related to exams of the [Business School](http://isletme.ybu.edu.tr).
+part-machine is a framework for pipelines and workflows which are created to handle multi-document processes of the [Business School](http://isletme.ybu.edu.tr) of [AYBU](http://ybu.edu.tr).
 
 Bilginin toplanması ve işlenebilir hale getirilmesi için kullanılan formlar
 * Sınav planlama formu (Öğretim üyesi) - Online, csv file
