@@ -13,13 +13,15 @@ Bilginin toplanması ve işlenebilir hale getirilmesi için kullanılan formlar
 * Derslere ilişkin öğrenci sayısı bilgisi (Bölüm sekreterliği), csv file
 * SOFT için girdi dosyası (Dekanlık), xml file
 
-### Çıktılar
+### Çıktılar - Ders programı
 * Ders programı
 * Ders görevlendirme yazısı
 * Haftalık ders programı
 * BOLOGNA ders formu
 * Telafi dersi formu
 * İşletme Fakültesi Eğitim Politikası
+
+### Çıktılar - Sınav programı
 * Sınav programı
 * Gözetmenlik görevlendirme yazısı - DONE
 * Gözetmen değişiklik formu
@@ -30,12 +32,15 @@ Bilginin toplanması ve işlenebilir hale getirilmesi için kullanılan formlar
   * Sınav tutanağı
   * Örnek cevap kağıdı
 * Fakülte Takvimi
+* İşletme Fakültesi Sınav Politikası - DONE
 
 ### Örnek Dokümanlar
 
 Gözetmenlik görevlendirme yazısı örneği
 
 ![Gözetmenlik yazılarının otomatik yazılması.](https://github.com/hkilter/part-machine/blob/master/img/Screen_Shot_2017-11-19_at_11_46_43s.png?raw=true)
+
+<a href="url"><img src="https://github.com/hkilter/part-machine/blob/master/img/Screen_Shot_2017-11-19_at_11_46_43s.png" align="left" height="48" width="48" ></a>
 
 Sınav sorumlusu görevlendirme yazısı örneği
 
