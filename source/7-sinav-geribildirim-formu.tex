@@ -1,7 +1,14 @@
 % envelope.tex
 \documentclass[12pt,a4paper]{article}
 %\usepackage[left=1in,top=1in,papersize={21cm,29.7cm},landscape,twoside=false]{geometry}
-\usepackage[portrait,twoside=false]{geometry}
+%\usepackage[portrait,twoside=false]{geometry}
+\usepackage{geometry}
+ \geometry{
+ a4paper,
+ total={170mm,257mm},
+ left=20mm,
+ top=20mm,
+ }
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
 \usepackage{graphicx}
@@ -31,7 +38,7 @@ Dersin öğretim üyesi \emph{Instructor of the course} \\ - \ogruye
 Geribildirimde bulunan \\ \emph{Feedback given by}
 \vskip0.1cm
 \renewcommand{\arraystretch}{2}
-\begin{tabular}{|p{15cm}|}
+\begin{tabular}{|p{\textwidth}|}
   \hline
   \\ \hline
 \end{tabular}
@@ -41,13 +48,15 @@ Geribildirim mesajı \\ \emph{Feedback message}
 \vskip0.1cm
 %\setlength\parindent{5cm}
 
-\renewcommand{\arraystretch}{20.5}
-\begin{tabular}{|p{15cm}|}
+\renewcommand{\arraystretch}{27}
+\begin{tabular}{|p{\textwidth}|}
   \hline
   \\ \hline
 \end{tabular}
 \renewcommand{\arraystretch}{1}
-
+\begin{figure}[b]
+{\includegraphics[height=0.4cm]{plusone.png}}
+\end{figure}
 \newpage
 }
 \end{document}

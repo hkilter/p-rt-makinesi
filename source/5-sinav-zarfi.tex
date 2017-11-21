@@ -1,7 +1,15 @@
 % envelope.tex
-\documentclass[a4paper]{letter}
+\documentclass[a4paper]{article}
 %\usepackage[left=1in,top=1in,papersize={21cm,29.7cm},landscape,twoside=false]{geometry}
-\usepackage[landscape,twoside=false]{geometry}
+%\usepackage[landscape,twoside=false]{geometry}
+\usepackage{geometry}
+ \geometry{
+ a4paper,
+ landscape,
+ total={257mm,170mm},
+ left=20mm,
+ top=20mm,
+ }
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
 \usepackage{graphicx}
@@ -17,37 +25,37 @@
 \kodad=kodad,
 \ogruye=ogruye%
 }{ % START BATCH
+\setlength\parindent{0cm}
 \begin{center}
 {\includegraphics[height=2cm]{ybu-logo.pdf}\\İŞLETME FAKÜLTESİ}
 \end{center}
 
 \vskip0.8cm
 
-{\LARGE 2017-2018 Akademik Yılı}
-\vskip0.3cm
-{\LARGE Güz Yarıyılı}
+{\LARGE 2017-2018 Akademik Yılı, Güz Yarıyılı}
 \vskip0.1cm
 {\LARGE \bf{Yarıyıl Sonu Sınavı}}
-\vskip0.8cm
+\vskip2cm
 %\setlength\parindent{5cm}
 \begin{center}
   {\Huge \bf{\kodad}}  
 \end{center}
 
-\vskip0.8cm
+\vskip2cm
 {\LARGE Öğretim Üyesi: \ogruye}
 \vskip0.1cm
 {\LARGE Öğretim Üyesinin İmzası:}
-\vskip2cm
+\vskip1cm
 {\huge Sınava katılan öğrenci sayısı: }
 \vskip0.4cm
 {\huge Zarftaki sınav kağıdı sayısı:}
 
-%\setlength\parindent{0cm}
-\vskip1cm
-%\hfill {\Large Zarfın kapağı, kapatıldıktan sonra öğretim üyesi tarafından imzalanacaktır.}
+\vskip0.5cm
 {\Large Zarfın kapağı, kapatıldıktan sonra öğretim üyesi tarafından imzalanacaktır.}
-
+\vskip0.3cm
+\begin{figure}[b]
+  {\includegraphics[height=0.4cm]{plusone.png}}
+\end{figure}
 \newpage
 }
 \end{document}

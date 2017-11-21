@@ -1,0 +1,82 @@
+% envelope.tex
+\documentclass[12pt,a4paper]{article}
+\usepackage{geometry}
+ \geometry{
+ a4paper,
+ total={170mm,257mm},
+ left=20mm,
+ top=20mm,
+ }
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{graphicx}
+\setlength\parskip{0pt}
+\pagestyle{empty}
+\usepackage[separator=;]{datatool}
+
+\begin{document}
+\inputencoding{latin1}
+\DTLloaddb{addr}{96-sinavlar.csv} % open database
+\inputencoding{utf8}
+\DTLforeach{addr}{
+\kodad=kodad,
+\ogruye=ogruye,
+\tarih=tarih,
+\saat=saat,
+\salon=salon,
+\sure=sure%
+}{ % START BATCH
+\setlength\parindent{0cm}
+\begin{center}
+{\includegraphics[height=2cm]{ybu-logo.pdf}\\İŞLETME FAKÜLTESİ}
+\vskip0.4cm
+Sınav Tutanağı
+\end{center}
+
+\renewcommand{\arraystretch}{1.5}
+\begin{tabular}{|p{6cm}|p{10.6cm}|}
+\hline
+  Dersin Kodu ve Adı & \kodad \\ 
+  Sorumlu öğretim üyesi & \ogruye \\ 
+  Sınav Tarihi & \tarih \\ 
+  Sınav Saati & \saat \\ 
+  Sınav Salonu & \salon \\ 
+  Planlanan sınav süresi & \sure \\ \hline
+  Sınavın başlangıç zamanı & \\ \hline
+  Sınavın bitiş zamanı & \\ \hline
+  Gerçekleşen sınav süresi & \\ \hline
+  Sınava katılan öğrenci sayısı & \\ \hline
+\end{tabular}
+\renewcommand{\arraystretch}{1}
+\vskip0.1cm
+\emph{Diğer Bilgiler}
+\vskip0.2cm
+\renewcommand{\arraystretch}{2}
+\begin{tabular}{|p{\textwidth}|}
+  \hline
+  \\
+  \\
+  \\
+  \\
+  \\
+  \\ \hline
+\end{tabular}
+\renewcommand{\arraystretch}{1}
+\vskip0.8cm
+\renewcommand{\arraystretch}{1.5}
+\begin{tabular}{|p{5.4cm}|p{5.4cm}|p{5.4cm}|}
+  \hline
+  \emph{Gözetmen} & \emph{Gözetmen} & \emph{Öğretim Üyesi} \\
+  Adı ve Soyadı & Adı ve Soyadı & Adı ve Soyadı \\
+  & & \\ 
+  İmza & İmza & İmza \\ 
+    & & \\ \hline
+\end{tabular}
+\renewcommand{\arraystretch}{1}
+\begin{figure}[b]
+{\includegraphics[height=0.4cm]{plusone.png}}
+\end{figure}
+
+\newpage
+}
+\end{document}
