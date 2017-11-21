@@ -24,13 +24,12 @@ Bilginin toplanması ve işlenebilir hale getirilmesi için kullanılan formlar
 ### Çıktılar - Sınav programı
 * Sınav programı
 * Gözetmenlik görevlendirme yazısı - DONE
-* Gözetmen değişiklik formu
+* Gözetmen değişiklik formu - DONE
 * Sınav sorumlusu görevlendirme yazısı - DONE
 * Sınav zarfı - DONE
   * İmza listesi - DONE
   * Sınav geribildirim formu - DONE
-  * Sınav tutanağı
-  * Örnek cevap kağıdı
+  * Sınav tutanağı - DONE
 * Fakülte Takvimi
 * İşletme Fakültesi Sınav Politikası - DONE
 
@@ -58,4 +57,8 @@ Sınav geribildirim formu örneği
 
 Gözetmen Değişiklik Formu
 
-![5](https://github.com/hkilter/part-machine/blob/master/img/gozetmen-degisiklik-formu.png?raw=true)
+![6](https://github.com/hkilter/part-machine/blob/master/img/gozetmen-degisiklik-formu.png?raw=true)
+
+Sınav Tutanağı
+
+![7](https://github.com/hkilter/part-machine/blob/master/img/sinav-tutanagi.png?raw=true)
