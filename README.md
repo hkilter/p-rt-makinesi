@@ -38,20 +38,24 @@ Bilginin toplanması ve işlenebilir hale getirilmesi için kullanılan formlar
 
 Gözetmenlik görevlendirme yazısı örneği
 
-![1](https://github.com/hkilter/part-machine/blob/master/img/Screen_Shot_2017-11-19_at_11_46_43s.png?raw=true)
+![1](https://github.com/hkilter/part-machine/blob/master/img/gozetmenlik-gorevlendirme-yazisi.png?raw=true)
 
 Sınav sorumlusu görevlendirme yazısı örneği
 
-![2](https://github.com/hkilter/part-machine/blob/master/img/Screen_Shot_2017-11-19_at_23_25_07s.png?raw=true)
+![2](https://github.com/hkilter/part-machine/blob/master/img/sinav-sorumlusu-gorevlendirme-yazisi.png?raw=true)
 
 Sınav zarfı örneği
 
-![3](https://github.com/hkilter/part-machine/blob/master/img/Screen_Shot_2017-11-19_at_11_49_31s.png?raw=true)
+![3](https://github.com/hkilter/part-machine/blob/master/img/sinav-zarfi.png?raw=true)
 
 İmza listesi örneği
 
-![4](https://github.com/hkilter/part-machine/blob/master/img/Screen%20Shot%202017-11-19%20at%2021.43.39.png?raw=true)
+![4](https://github.com/hkilter/part-machine/blob/master/img/imza-listesi.png?raw=true)
 
 Sınav geribildirim formu örneği
 
-![5](https://github.com/hkilter/part-machine/blob/master/img/Screen_Shot_2017-11-19_at_22_12_00s.png?raw=true)
+![5](https://github.com/hkilter/part-machine/blob/master/img/sinav-geribildirim-formu.png?raw=true)
+
+Gözetmen Değişiklik Formu
+
+![5](https://github.com/hkilter/part-machine/blob/master/img/gozetmen-degisiklik-formu.png?raw=true)
